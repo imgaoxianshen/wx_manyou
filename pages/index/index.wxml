@@ -1,0 +1,17 @@
+<import src="../message-template/message-template.wxml" />
+<view class="index-container">
+  <view class="index-top"></view>
+  <view class="index-content">
+    <!-- <view class="index-xinfeng"></view>  -->
+    <view class="index-content-top">
+      <image class="index-content-icon" src="../../images/time.png"></image>
+      <text class="index-content-text">{{now}}</text>
+    </view>
+    <text class="index-content-msg">有些话,想慢慢告诉你</text>
+    <text class="index-content-msg">有些爱,想偷偷告诉你</text>
+    <button class="content-button" bindtap="OnMailTap">我要写信</button>
+  </view>
+  <view class="message-wrapper">
+    <template is="message" data="{{orderList}}"></template>
+  </view>
+</view>

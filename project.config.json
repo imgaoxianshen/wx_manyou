@@ -1,0 +1,80 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.93",
+	"appid": "wxe00530aad827f941",
+	"projectname": "ManYou",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mail",
+					"pathName": "pages/mail/mail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "confirmPay",
+					"pathName": "pages/confirmPay/confirmPay",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "center",
+					"pathName": "pages/center/center",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "phone",
+					"pathName": "pages/phone/phone",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "getmessage",
+					"pathName": "pages/getmessage/getmessage",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "showmessage",
+					"pathName": "pages/showmessage/showmessage",
+					"query": ""
+				}
+			]
+		}
+	}
+}

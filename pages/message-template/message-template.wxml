@@ -1,0 +1,22 @@
+<template name="message">
+  <block wx:for="{{orderList}}">
+    <view class="message-container">
+        <block wx:if="{{item.type=='send'}}">  
+        <view class="message-head">hey!这是一封给{{item.get_phone}}的信！
+          <view class="message_icon"></view>
+         </view> 
+        </block>  
+        <block wx:if="{{item.type=='get'}}">  
+        <view class="message-head">hey!一封来自{{item.user.mobile}}的信，请查看！
+          <view class="message_icon"></view>
+        </view>
+        </block>  
+      <view class="index-xin-container" bindtap='onShowMessageTap' data-order_id="{{item.id}}">
+        <view class="index-xin-top">
+          <image src="{{item.status == 2 ?'../../images/unlock.png':'../../images/lock.png'}}" class="index-xin-circle"></image>
+        </view>
+      </view>
+    </view>
+  </block>
+
+</template>

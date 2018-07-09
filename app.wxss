@@ -1,0 +1,28 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+page{
+    background-color:#f0f0f0;  
+    height:100%;
+}
+
+text{
+  font-size:30rpx;
+  color:#5a5a5a;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+teatarea{
+  font-size:20rpx;
+  color:#5a5a5a;
+  font-weight:200;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+

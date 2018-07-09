@@ -1,0 +1,38 @@
+<view>
+  <view class='center-top'>
+    <block wx:if="{{isLogin}}">
+      <image class="center-headimg" src="{{avatarUrl}}"></image>
+      <text class="center-text">{{name}}.</text>
+    </block>
+    <block wx:else>
+       <button  open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    </block>
+  </view>
+  <view class='center-top-bg'></view>
+
+  <view class="center-list">
+    <view class="list-item" bindtap='onGetMessageTap' data-type="get">
+      <image class="center-list-icon" src='../../images/paper_plane.png'></image>
+      <text class="list-text">收到的信</text>
+    </view>
+    <view class="list-item" bindtap='onGetMessageTap' data-type="send">
+      <image class="center-list-icon" src='../../images/get_paper_plane.png'></image>
+      <text class="list-text">寄出的信</text>
+    </view>
+  </view>
+
+  <view class="center-list" bindtap='onPhoneTap'>
+    <view class="list-item">
+      <image class="center-list-icon" src='../../images/icon_phone.png'></image>
+      <text class="list-text">绑定手机号</text>
+    </view>
+  </view>
+
+
+  <view class="center-list" bindtap='onErrorTap'>
+    <view class="list-item">
+      <image class="center-list-icon" src='../../images/fankui.png'></image>
+      <text class="list-text">信息反馈</text>
+    </view>
+  </view>
+</view>

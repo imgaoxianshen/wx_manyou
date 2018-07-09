@@ -1,0 +1,82 @@
+page{
+  height:auto;
+}
+
+.confirm-top{
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 200rpx;
+  background-color:#FFE328;
+  color:#fff;
+}
+
+.confirm-money{
+  text-align: center;
+  line-height: 200rpx;
+  vertical-align: bottom;
+}
+
+.confirm-icon{
+  color:#fff;
+}
+
+.confirm-top-text{
+  font-size:70rpx;
+  color:#fff;
+}
+
+.confirm-content{
+  margin-top:200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirm-paytype-title{
+  height:80rpx;
+  background-color:white;
+  width:100%;
+  border-bottom: 1px solid #d1d1d1;
+  line-height: 80rpx;
+  font-size: 0;
+}
+
+.confirm-paytype-titletext{
+  font-size:25rpx;
+  padding:0 100rpx;
+}
+
+.confirm-paytype{
+  display: flex;
+  align-items: center;
+  background-color:#fff;
+  height:100rpx;
+  width:100%;
+  border-bottom: 1px solid #d1d1d1;
+  font-size: 0;
+}
+
+.confirm-bottom{
+  margin-top:20rpx;
+  background: linear-gradient(to right, rgb(19,217,207), rgb(45,146,236));
+  color: white;
+  border-radius: 40rpx;
+  width: 600rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30rpx;
+  z-index:999;
+}
+
+.we-chat-icon{
+  width:50rpx;
+  height:50rpx;
+  margin-left:100rpx;
+}
+
+.we-chat-text{
+  margin-left:100rpx;
+}

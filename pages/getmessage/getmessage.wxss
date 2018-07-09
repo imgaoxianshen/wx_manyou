@@ -1,0 +1,7 @@
+@import '../message-template/message-template.wxss';
+
+.getmessage-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

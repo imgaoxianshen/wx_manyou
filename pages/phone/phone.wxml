@@ -1,0 +1,16 @@
+<view class="phone-container">
+  <block wx:if="{{!isBindMobile}}">
+    <view class="msg">请通过手机验证码来绑定手机号</view>
+    <input type='number' bindinput='OnMobileInput' maxlength='11' class="phone_num" placeholder='请输入手机号'></input>
+    <view class="yanzheng">
+      <input type='number' bindinput='OnCodeInput' maxlength='6' class="yanzhengma" placeholder='请输入验证码'></input>
+      <view class="get_ma" bindtap='OnGetCodeTap'>获取验证码{{time==0?'':"("+time+"s)"}}</view>
+    </view>
+    <button class="phone-confirm" bindtap="OnBindMobile">确认绑定</button>
+  </block>
+  <block wx:else>
+    <icon class="icon-success" type="success" color="#FFE328" size="65"></icon>
+    <view class="bind-success">您已成功绑定手机号:</view>
+    <view class="bindmobile">{{bindMobile}}</view>
+  </block>
+</view>

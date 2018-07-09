@@ -1,0 +1,72 @@
+.phone-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.msg {
+  color: gery;
+  font-size: 30rpx;
+  margin-top: 50rpx;
+}
+
+.phone_num {
+  margin-top: 50rpx;
+  background-color: white;
+  width: 700rpx;
+  text-align: center;
+  height: 100rpx;
+  border: 1px solid #d1d1d1;
+  border-radius: 20rpx;
+}
+
+.phone-confirm {
+  width: 700rpx;
+  background-color: #ffe328;
+  color: white;
+  margin-top: 50rpx;
+}
+
+.get_ma {
+  width: 350rpx;
+  background-color: #ffe328;
+  border-radius: 0 20rpx 20rpx 0;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: white;
+  text-align: center;
+  border-left: 1px solid #d1d1d1;
+  font-size: 30rpx;
+}
+
+.yanzheng {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid #d1d1d1;
+  border-radius: 20rpx;
+  width: 700rpx;
+  height: 100rpx;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50rpx;
+}
+
+.yanzhengma {
+  width: 100%;
+  text-align: center;
+}
+
+.icon-success {
+  margin-top: 200rpx;
+}
+
+.bind-success {
+  margin-top: 100rpx;
+  font-size: 40rpx;
+}
+
+.bindmobile {
+  margin-top: 30rpx;
+  font-size: 40rpx;
+}

@@ -1,0 +1,23 @@
+<view class="mail-container">
+  <view class='mail-top-container'>
+    <image mode="widthFix" class="mail-top" src='../../images/top.jpg'></image>
+    <!--小配件  -->
+    <view class='mail-tips'>
+      <view class="mail-block">
+        <text class="mail-tips-text">{{year}}</text>
+      </view>
+    </view>
+    <view class="mail-send-to">
+      <text class="mail-send-to-text">收件人:{{get_phone}}</text>
+    </view>
+  </view>
+  <view class="mail-content">
+    <view class="mail-textarea">
+      {{message}}
+    </view>
+  </view>
+  <view class="mail-footer">
+    <text>{{time}}</text>
+    <text>{{name}}</text>
+  </view>
+</view>

@@ -1,0 +1,80 @@
+page{
+  background-color:white;
+}
+mail-contentpage {
+  background-color: #fff;
+  height: 100%;
+}
+
+.mail-container {
+  height: 100%;
+}
+
+.mail-top {
+  position: fixed;
+  top: 0;
+  height: 200rpx;
+  width: 750rpx;
+}
+
+.mail-top-container {
+  display: flex;
+}
+
+.mail-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 20rpx;
+  right: 40rpx;
+  width: 70rpx;
+  height: 70rpx;
+  background-color: #fff;
+  z-index: 100;
+  transform: rotate(45deg);
+  box-shadow: 0 0 8px #ddd;
+}
+
+.mail-send-to {
+  position: fixed;
+  left: 30rpx;
+  top: 30rpx;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.mail-send-to-text{
+  color:#fff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1),0 1px 3px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2),0 5px 10px rgba(0,0,0,0.25);
+}
+
+.mail-tips-text {
+  font-size: 20rpx;
+  display: block;
+  transform: rotate(-45deg);
+}
+
+.mail-content {
+  padding-top: 200rpx;
+  padding-bottom: 30rpx;
+}
+
+.mail-textarea {
+  width: 700rpx;
+  /* min-height: 800rpx; */
+  margin: 0 auto;
+  word-break:break-all; 
+}
+
+.mail-footer {
+  display: flex;
+  flex-direction: column;
+  height: 100rpx;
+  width: 700rpx;
+  line-height: 50rpx;
+  align-items: flex-end;
+}
+

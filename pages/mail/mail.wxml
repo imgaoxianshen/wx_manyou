@@ -1,0 +1,35 @@
+<view class="mail-container">
+  <view class='mail-top-container'>
+    <image mode="widthFix" class="mail-top" src='../../images/top.jpg'></image>
+    <!--小配件  -->
+    <view class='mail-tips'>
+      <view class="mail-block">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{monthArr}}">
+          <view class="mail-tips-text">
+            {{monthAfter}}
+          </view>
+        </picker>
+      </view>
+    </view>
+    <view class="mail-get">个月后送达</view>
+    <view class="mail-send-to">
+      <text class="mail-send-to-text">收件人:</text>
+      <input type="number" focus="true" class="mail-send-to-input" bindinput="onInput" maxlength='11'>
+      </input>
+    </view>
+  </view>
+  <view class="mail-content">
+    <textarea adjust-position="false" class="mail-textarea" bindinput="onTextarea" />
+  </view>
+  <view class="mail-footer">
+    <view class="mail-footer-left">
+      <view class="luyin-container">
+        <image class="luyin" src='../../images/camera.png'></image>
+      </view>
+      <view class="luyin-container">
+        <image class="luyin" src='../../images/luyin.png'></image>
+      </view>
+    </view>
+    <view class='mail-commit' bindtap="onCommitTap">提交</view>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<view>
+  <view class="confirm-top">
+    <view class="confirm-money">
+      <text class="confirm-icon">￥</text>
+      <text class="confirm-top-text">{{orderPrice}}</text>
+    </view>
+  </view>
+  <view class="confirm-content">
+    <view class="confirm-paytype-title">
+      <text class="confirm-paytype-titletext">请选择支付方式</text> 
+    </view>
+    <view class="confirm-paytype">
+      <image class="we-chat-icon" src='../../images/wechat.png'></image>
+      <text class="we-chat-text">微信支付</text>
+    </view>
+
+
+    <view class="confirm-bottom" bindtap="onPayTap">
+      马上支付
+    </view>
+  </view>
+</view>

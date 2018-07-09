@@ -1,0 +1,4 @@
+<import src="../message-template/message-template.wxml" />
+<view class="getmessage-container">
+<template is="message" data="{{orderList}}"/>
+</view>

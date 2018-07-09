@@ -1,0 +1,5 @@
+<view class="start_container">
+    <view class="start-circle"></view>
+    <image class="start-cloud" src='../../images/soundcloud.png'></image>
+    <text class="start-text">海底月是天上月, 眼前人是心上人.</text>
+</view>
