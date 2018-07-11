@@ -1,6 +1,6 @@
 class Base{
 
-  baseUrl = 'http://192.168.0.103/manyou/public/index.php/api/v1/';
+  baseUrl = 'https://www.imgaoxianshen.cn/manyou/public/index.php?s=api/v1/';
 
   constructor(){
 
